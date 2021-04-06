@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Script -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="style/style.css">
+  
+    <!-- Owl Css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css"/>
+    
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>TRAILERFLIX</title>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">TRAILERFLIX</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="https://www.netflix.com" target="_blank">Netflix</a>
+                <a href="https://www.disneyplus.com" target="_blank">Disney Plus</a>
+                <a href="https://www.primevideo.com" target="_blank">Prime Video</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal" id="wv">
+            <div class="container">
+                <div id="text" >
+                    <h3 class="titulo">WANDA VISION</h3>
+                
+                    <p class="descricao">
+                        Wanda Maximoff e Visão, um casal de super-heróis 
+                        com uma vida perfeita, que começa a suspeitar que 
+                        nem tudo é o que parece.
+                    </p>
+                </div>
+
+                <div id="video" hidden >
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fpSvKp_yIIw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="play()"> 
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA 
+                    </button>
+
+                    <button role="button" class="botao" onclick="info()"> 
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+          
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                
+                <a href="wv.html">
+                    <div class="box-filme">
+                        <img src="img/wv.jpg" alt="Wanda Vision" srcset="">
+                    </div>
+                </a>
+
+                <a href="ava.html">
+                    <div class="box-filme">
+                        <img src="img/ava.jpg" alt="Ava" srcset="">
+                    </div>
+                </a>
+
+                <a href="ww.html">
+                    <div class="box-filme">
+                        <img src="img/ww.jpg" alt="Mulher Maravilha" srcset="">
+                    </div>
+                </a>
+
+                <a href="tomjerry.html">
+                    <div class="box-filme">
+                        <img src="img/tomjerry.jpg" alt="Tom e Jerry" srcset="">
+                    </div>
+                </a>
+
+                <a href="soul.html">
+                    <div class="box-filme">
+                        <img src="img/soul.jpg" alt="Soul" srcset="">
+                    </div>
+                </a>
+                
+                <a href="mst.html">
+                    <div class="box-filme">
+                        <img src="img/mst.jpg" alt="Monster Hunter" srcset="">
+                    </div>
+                </a>
+
+                <a href="mk.html">
+                    <div class="box-filme">
+                        <img src="img/mk.jpg" alt="Mortal Kombat" srcset="">
+                    </div>
+                </a>
+
+                <a href="stw.html">
+                    <div class="box-filme">
+                        <img src="img/stw.jpg" alt="Star Wars" srcset="">
+                    </div>
+                </a>
+
+                <a href="zc.html">
+                    <div class="box-filme">
+                        <img src="img/zc.jpg" alt="Zona de Combate" srcset="">
+                    </div>
+                </a>
+
+            </div>
+        
+        </div>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/577e517bc6.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+
+</body>
+</html>

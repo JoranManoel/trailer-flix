@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .descricao{
+        width: 50vh;
+    }
+
+
+    iframe{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .filme-principal {
+       height: 500px;
+    }
+}

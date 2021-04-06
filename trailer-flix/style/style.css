@@ -1,0 +1,167 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elemento Base*/
+body{
+    background-color: var(--preto);
+    font-family: 'arial', Times, serif;
+    color: white;
+
+}
+
+header .container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 35px;
+}
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+header nav a:hover{
+    color: #fff;
+}
+
+/* Background filme principal pelo id*/
+#bs{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa.jpg);    
+    background-size: cover;
+
+}
+
+#wv{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa2.jpg);
+    background-size: cover;
+}
+#ava{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa3.jpg);
+    background-size: cover;
+}
+#ww{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa4.jpg);
+    background-size: cover;
+}
+#tomjerry{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa5.jpg);
+    background-size: cover;
+}
+#soul{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa6.jpg);
+    background-size: cover;
+}
+#mst{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa7.jpg);
+    background-size: cover;
+}
+#mk{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa8.jpg);
+    background-size: cover;
+}
+
+#stw{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa9.jpg);
+    background-size: cover;
+}
+
+#zc{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url(../img/capa10.jpg);
+    background-size: cover;
+}
+
+/* Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+
+ 
+
+    height: 400px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 10px;
+}
+
+.filme-principal .container{
+    margin: 15px;
+
+    width: 50%;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.filme-principal .titulo{
+  
+    
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.filme-principal .botao{
+    background-color:rgba(0,0,0,.50) ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+    padding: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+
+    width: 200px;
+
+    cursor: pointer;
+
+    transition: .8s ease all;
+}
+
+.filme-principal .botao:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.filme-principal .botao i{
+    margin-right: 8px;
+}
+
+/* Carrosel */
+
+.carrosel-filmes{
+    margin-top: 10px;
+
+}
+.carrosel-filmes .box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+
+}
+
+.carrosel-filmes .box-filme img{
+    cursor: pointer;
+    color:red;  
+
+}
